@@ -36,7 +36,7 @@ export const siteConfig = {
   // GSC : token de verification META (balise HTML). Issu de l'API siteVerification
   // au deploy (creation de la propriete GSC). NE JAMAIS inventer une valeur.
   // Surchargeable via NEXT_PUBLIC_GSC_TOKEN au build de deploy.
-  gscVerification: process.env.NEXT_PUBLIC_GSC_TOKEN || "",
+  gscVerification: process.env.NEXT_PUBLIC_GSC_TOKEN || "o-2kzYeLijLrxc-4K0_iAA8epdWtE4pwDyv3p7ehHQU",
 };
 
 export type Service = {
