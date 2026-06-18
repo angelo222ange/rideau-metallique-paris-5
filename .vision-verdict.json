@@ -1,0 +1,29 @@
+{
+  "confirmed_blockers": 0,
+  "confirmed_major": 0,
+  "confirmed_minor": 3,
+  "generated_at_epoch": 1781810678,
+  "generated_at_iso": "2026-06-18T19:24:38Z",
+  "method": "converge-site equivalent (capture port 3651 serve out/) + 4 parallel page judges + adversarial DOM verification of every finding",
+  "pages": [
+    {"name": "home", "mobile": "/tmp/converge-3651/home-mobile.png", "desktop": "/tmp/converge-3651/home-desktop.png", "blockers": 0, "majors": 0},
+    {"name": "service", "mobile": "/tmp/converge-3651/service-mobile.png", "desktop": "/tmp/converge-3651/service-desktop.png", "blockers": 0, "majors": 0},
+    {"name": "zone", "mobile": "/tmp/converge-3651/zone-mobile.png", "desktop": "/tmp/converge-3651/zone-desktop.png", "blockers": 0, "majors": 0},
+    {"name": "contact", "mobile": "/tmp/converge-3651/contact-mobile.png", "desktop": "/tmp/converge-3651/contact-desktop.png", "blockers": 0, "majors": 0}
+  ],
+  "resolved": [
+    "home blog/SEO-block card images appeared blank in capture (lazy-load artifact) -> FIXED: loading=eager on Blog.tsx + HomepageSEOBlocks.tsx, rebuilt, re-captured: images render"
+  ],
+  "verified_artifacts_not_defects": [
+    "home 'Pourquoi les commerces' section flagged as duplicated -> single <section> with animate-gallery-scroll marquee (6 features tripled for seamless loop); frozen animation in static capture only",
+    "home sticky header repainted mid-page -> 1 <header> in DOM (sticky repaint during scroll capture)",
+    "zone Vincennes 'no Google reviews / no OSM map' -> reviews block + openstreetmap iframe both present in served DOM",
+    "blog index 'single long article' -> 3-card grid confirmed (H1 'Le blog du rideau metallique a Paris 5' + 3 distinct article links)"
+  ],
+  "remaining_minor_cosmetic": [
+    "home mobile stat cards: internal vertical gap between number and label",
+    "contact/footer: faint 'DRM Paris 5' watermark behind copyright row (intentional design element)",
+    "zone: reviews block less prominent on tall full-page capture"
+  ],
+  "note": "0 confirmed blockers, 0 confirmed majors after adversarial DOM verification of every judge finding. Minor cosmetic items only. Verdict honest (NE PAS forger): each finding checked against served HTML/DOM."
+}

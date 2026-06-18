@@ -1,0 +1,6 @@
+{
+  "hero": { "title": "", "subtitle": "", "cta": "" },
+  "about": { "title": "", "text": "", "stats": [] },
+  "services": { "title": "", "items": [] },
+  "faq": { "title": "", "items": [] }
+}

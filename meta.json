@@ -1,0 +1,71 @@
+{
+  "id": "template-1",
+  "name": "GreenSpire",
+  "source": "https://greenspire.framer.website/",
+  "style": "modern-clean",
+  "match_score": 97,
+  "sections": [
+    "hero-fullimg",
+    "logo-marquee",
+    "about-stats-4cards",
+    "core-values-img-left",
+    "services-3cards-overlay",
+    "why-choose-marquee",
+    "gallery-bento-grid",
+    "process-left-right",
+    "google-reviews",
+    "pricing-2cols",
+    "blog-3cards",
+    "cta-form-right",
+    "footer-big-text"
+  ],
+  "colors": {
+    "primary_dark": "#033040",
+    "primary_darker": "#082228",
+    "accent": "#A9FFCA",
+    "light_bg": "#F6F6F6",
+    "white": "#FFFFFF",
+    "border": "#E4E4E4"
+  },
+  "fonts": {
+    "heading": "Geist",
+    "accent": "Playfair Display"
+  },
+  "layout": {
+    "max_width": 1200,
+    "container_padding": "80px 30px",
+    "section_gap": "0px",
+    "card_radius": 12,
+    "pill_radius": 1000
+  },
+  "best_for": [
+    "services-local",
+    "artisan",
+    "depannage",
+    "urgence"
+  ],
+  "created_at": "2026-04-02",
+  "placeholder_images": true,
+  "vertical_compatible": [
+    "vitrier",
+    "drm",
+    "porte-sectionnelle"
+  ],
+  "section_mapping_vitrier": {
+    "hero": "hero_vitrier",
+    "about": "presentation_vitrier",
+    "services": "services_vitrier_7",
+    "gallery": "realisations_vitrerie",
+    "process": "methode_intervention_vitrier",
+    "pricing": null,
+    "blog": "blog",
+    "cta": "cta_urgence_24h",
+    "footer": "footer"
+  },
+  "missing_sections_vitrier": [
+    "stats_confiance",
+    "zones_intervention",
+    "avis_google",
+    "faq_vitrier"
+  ]
+}

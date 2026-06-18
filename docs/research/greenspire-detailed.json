@@ -1,0 +1,1331 @@
+{
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Bringing Life to Lawns & Gardens",
+      "fontSize": "72px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "86.4px",
+      "letterSpacing": "-1.44px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Transforming yard",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Lawn Care Specialists",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Customer Satisfaction",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Multiple local areas",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "It’s Not Just Lawn Care",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Services Designed To Keep Your Outdoors Thriving",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Lawn Health Inspection",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(169, 255, 202)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Debris/Blow Cleanup",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(169, 255, 202)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Grass Adjustment",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(169, 255, 202)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Here’s Why Our Clients",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Love Working With Us",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Playfair Display",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Tailored Lawn & Garden Solutions",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Fully Licensed & Insured",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Modern Tools & Techniques",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Reliable & On-Time Service",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Tailored Lawn & Garden Solutions",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Fully Licensed & Insured",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Modern Tools & Techniques",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Reliable & On-Time Service",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Tailored Lawn & Garden Solutions",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Fully Licensed & Insured",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Modern Tools & Techniques",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Reliable & On-Time Service",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Tailored Lawn & Garden Solutions",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Fully Licensed & Insured",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Modern Tools & Techniques",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Reliable & On-Time Service",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "From Patchy Lawns to Explore Our Gallery",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Tree Cutting",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(228, 228, 228)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Complete Yard Care",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(228, 228, 228)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Flower Maze Trim",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(228, 228, 228)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Garden Renovation",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(228, 228, 228)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Our Process For Everyone",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "01. Discover & Diagnose",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "02. Tailored Planning",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "03. Professional Execution",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "04. Support & Maintenance",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Stories That Prove Why Our Work Matters",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "They trimmed all the hedges around my house with precision and cleaned up everyt",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "They shaped all the hedges beautifully and made sure the yard was neat and clean",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "I schedule their seasonal cleanup regularly, and they always do a fantastic job ",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "I use their seasonal cleanup service every few months, and they never disappoint",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "I had no idea which plants would work best, but their design team guided me thro",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "I didn’t know what plants to choose or where to start. Their design team helped ",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Affordable Lawn",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Care Plans",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Playfair Display",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "Starter Plan",
+      "fontSize": "32px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "44.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H3",
+      "text": "$39",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "Premium plan",
+      "fontSize": "32px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "44.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H3",
+      "text": "$59",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H3",
+      "text": "Need a Custom Plan",
+      "fontSize": "40px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "48px",
+      "letterSpacing": "-0.4px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H2",
+      "text": "Trending Articles",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-0.52px",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Top 7 Lawn Care Mistakes to Avoid This Season",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "How to Grow a Thriving Vegetable Garden Fast",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H5",
+      "text": "Top Gardening Secrets Every Beginner Should",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "33.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(8, 34, 40)",
+      "textTransform": "none"
+    },
+    {
+      "tag": "H4",
+      "text": "Ready to Get Started",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "textTransform": "none"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Get Started",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(3, 48, 64)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "[Lawn Mowing]",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(255, 255, 255)",
+      "lineHeight": "25.2px"
+    },
+    {
+      "text": "Expert Lawn Mowing & Gardening Services, Customized to Suit ",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "color": "rgb(255, 255, 255)",
+      "lineHeight": "25.2px"
+    },
+    {
+      "text": "Get Started",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(3, 48, 64)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "Explore Projects",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(255, 255, 255)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "Satisfied Clients",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "color": "rgb(255, 255, 255)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "Trusted by more than 5k+ satisfied clients",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(8, 34, 40)",
+      "lineHeight": "28px"
+    },
+    {
+      "text": "At Greenspire we’ve been turning ordinary yards into thrivin",
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "color": "rgb(8, 34, 40)",
+      "lineHeight": "36.4px"
+    },
+    {
+      "text": "Every successful outdoor transformation begins with a though",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "color": "rgb(3, 48, 64)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "Into beautiful, thriving spaces across the city.",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "color": "rgb(8, 34, 40)",
+      "lineHeight": "24px"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Get Started",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "16px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Get Started",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "16px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Explore Projects",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(3, 48, 64, 0)",
+      "borderRadius": "0px",
+      "padding": "16px 0px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Get Started",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(3, 48, 64)",
+      "borderRadius": "1000px",
+      "padding": "16px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "See Details",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "12px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "See Details",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "12px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "See Details",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "12px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Get Started",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(255, 255, 255)",
+      "borderRadius": "1000px",
+      "padding": "4px 4px 4px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Get Started",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "1000px",
+      "padding": "4px 4px 4px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Contact Us",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(3, 48, 64)",
+      "borderRadius": "1000px",
+      "padding": "4px 4px 4px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "See All Articles",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(3, 48, 64)",
+      "borderRadius": "1000px",
+      "padding": "16px 24px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Submit",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(169, 255, 202)",
+      "borderRadius": "100px",
+      "padding": "0px",
+      "fontFamily": "sans-serif"
+    },
+    {
+      "text": "Buy for $79Grab Now",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(221, 69, 61)",
+      "borderRadius": "10px",
+      "padding": "8px 6px 8px 12px",
+      "fontFamily": "sans-serif"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://framerusercontent.com/images/zgbXLuagVpLegcZtRrXuzsRlZI.png?width=2658&height=600",
+      "alt": "",
+      "w": 177,
+      "h": 40
+    },
+    {
+      "src": "https://framerusercontent.com/images/fxFURo1BBltRugvaT8tinOirtY.png?width=4117&height=1954",
+      "alt": "",
+      "w": 1440,
+      "h": 683
+    },
+    {
+      "src": "https://framerusercontent.com/images/MAWeF3IPz5QTPrkMky6VRp7g.png?width=300&height=300",
+      "alt": "Client Image",
+      "w": 300,
+      "h": 300
+    },
+    {
+      "src": "https://framerusercontent.com/images/U5Jdlbl1TdJMbYKRs8PDCxCKzI.png?width=300&height=300",
+      "alt": "Client Image",
+      "w": 300,
+      "h": 300
+    },
+    {
+      "src": "https://framerusercontent.com/images/dEFX65jF7Mke6CrT2cp2cGp8qos.png?width=200&height=200",
+      "alt": "Client Image",
+      "w": 200,
+      "h": 200
+    },
+    {
+      "src": "https://framerusercontent.com/images/kUbG4P2yPhDfwHB3dDLbNe8a58.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/lM2tWhRVyIHwtBS1krtJPfQPcrg.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/POmU7WcgHvVwpzwhL8xDuoQ.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/crTAHJayjgZh61wA49KLvitAAU.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/50rYQ7FAnRnPNbRUKhBvEt6FCM.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/XmFVfefJOlXYAbOzyKkrMLQwtx4.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/kUbG4P2yPhDfwHB3dDLbNe8a58.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/lM2tWhRVyIHwtBS1krtJPfQPcrg.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/POmU7WcgHvVwpzwhL8xDuoQ.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/crTAHJayjgZh61wA49KLvitAAU.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/50rYQ7FAnRnPNbRUKhBvEt6FCM.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/XmFVfefJOlXYAbOzyKkrMLQwtx4.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/kUbG4P2yPhDfwHB3dDLbNe8a58.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/lM2tWhRVyIHwtBS1krtJPfQPcrg.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/POmU7WcgHvVwpzwhL8xDuoQ.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/crTAHJayjgZh61wA49KLvitAAU.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/50rYQ7FAnRnPNbRUKhBvEt6FCM.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/XmFVfefJOlXYAbOzyKkrMLQwtx4.png?width=1712&height=440",
+      "alt": "",
+      "w": 209,
+      "h": 53
+    },
+    {
+      "src": "https://framerusercontent.com/images/XyrnjudkARGrjn0jGV4PivZWnqk.png?width=2080&height=2660",
+      "alt": "",
+      "w": 530,
+      "h": 678
+    },
+    {
+      "src": "https://framerusercontent.com/images/b2sTX8wKcHCOCRPVmF2fLOdPs.png?width=1129&height=949",
+      "alt": "Service Image",
+      "w": 366,
+      "h": 307
+    },
+    {
+      "src": "https://framerusercontent.com/images/XoPQXwdukJFqkjAc4JHFIK4POEc.png?width=1802&height=1346",
+      "alt": "Service Image",
+      "w": 366,
+      "h": 273
+    },
+    {
+      "src": "https://framerusercontent.com/images/2hTBTEGWfE6Ng4HLNZBCUH08xw.png?width=1802&height=1346",
+      "alt": "Service Image",
+      "w": 366,
+      "h": 273
+    },
+    {
+      "src": "https://framerusercontent.com/images/E159FBVgeJwnS8uH1y3CRcjWBs.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/4o5woq7zsRmvlzePRSMa6XjckZ8.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXNdThhxKxuKc4vJospsmg5WO9o.jpeg?width=2158&height=3838",
+      "alt": "",
+      "w": 320,
+      "h": 569
+    },
+    {
+      "src": "https://framerusercontent.com/images/fz5NJ9kcaI6hhBAo8CdI4wSCnmI.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/E159FBVgeJwnS8uH1y3CRcjWBs.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/4o5woq7zsRmvlzePRSMa6XjckZ8.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXNdThhxKxuKc4vJospsmg5WO9o.jpeg?width=2158&height=3838",
+      "alt": "",
+      "w": 320,
+      "h": 569
+    },
+    {
+      "src": "https://framerusercontent.com/images/fz5NJ9kcaI6hhBAo8CdI4wSCnmI.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/E159FBVgeJwnS8uH1y3CRcjWBs.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/4o5woq7zsRmvlzePRSMa6XjckZ8.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXNdThhxKxuKc4vJospsmg5WO9o.jpeg?width=2158&height=3838",
+      "alt": "",
+      "w": 320,
+      "h": 569
+    },
+    {
+      "src": "https://framerusercontent.com/images/fz5NJ9kcaI6hhBAo8CdI4wSCnmI.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/E159FBVgeJwnS8uH1y3CRcjWBs.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/4o5woq7zsRmvlzePRSMa6XjckZ8.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/iXNdThhxKxuKc4vJospsmg5WO9o.jpeg?width=2158&height=3838",
+      "alt": "",
+      "w": 320,
+      "h": 569
+    },
+    {
+      "src": "https://framerusercontent.com/images/fz5NJ9kcaI6hhBAo8CdI4wSCnmI.png?width=826&height=1237",
+      "alt": "",
+      "w": 320,
+      "h": 479
+    },
+    {
+      "src": "https://framerusercontent.com/images/yldN2avPPaKr0fZiOdMSsNO4k.png?width=519&height=519",
+      "alt": "Back Arrow",
+      "w": 519,
+      "h": 519
+    },
+    {
+      "src": "https://framerusercontent.com/images/FeUIZzW9WQfz5hm282QePKgoznE.png?width=519&height=519",
+      "alt": "Next Arrow",
+      "w": 519,
+      "h": 519
+    },
+    {
+      "src": "https://framerusercontent.com/images/yHIiNgQXP9D7LHHkQCvY5s0g.png?width=1125&height=703",
+      "alt": "",
+      "w": 369,
+      "h": 230
+    },
+    {
+      "src": "https://framerusercontent.com/images/E3PJDf962vucOApi44ox5ACrt7E.png?width=1125&height=703",
+      "alt": "",
+      "w": 754,
+      "h": 471
+    },
+    {
+      "src": "https://framerusercontent.com/images/0xDA8NvFa69mx5zL6eR2SZY6E.png?width=1125&height=703",
+      "alt": "",
+      "w": 369,
+      "h": 230
+    },
+    {
+      "src": "https://framerusercontent.com/images/E3PJDf962vucOApi44ox5ACrt7E.png?width=1125&height=703",
+      "alt": "",
+      "w": 754,
+      "h": 471
+    },
+    {
+      "src": "https://framerusercontent.com/images/cNs93xgZBl7wXczgBbQjTgQPVE.jpg?scale-down-to=1024&width=4096&height=2296",
+      "alt": "",
+      "w": 200,
+      "h": 112
+    },
+    {
+      "src": "https://framerusercontent.com/images/woHBMQnh3vo2mRxkSXhVPw0iKk.png?width=560&height=374",
+      "alt": "",
+      "w": 200,
+      "h": 133
+    },
+    {
+      "src": "https://framerusercontent.com/images/f7B5dHr8wREYFgS5H79XmaN3hSU.png?width=558&height=372",
+      "alt": "",
+      "w": 200,
+      "h": 133
+    },
+    {
+      "src": "https://framerusercontent.com/images/dgdt54WA5CEbjIcWZmyi11XpLA.png?width=559&height=372",
+      "alt": "",
+      "w": 200,
+      "h": 133
+    },
+    {
+      "src": "https://framerusercontent.com/images/Y1EW6DgB9QUUtFWleqS19zxxc.png?scale-down-to=1024&width=855&height=1206",
+      "alt": "",
+      "w": 440,
+      "h": 621
+    },
+    {
+      "src": "https://framerusercontent.com/images/BuhGZXzkr8l4NX2Vwx9jPPiYfQ.jpeg?width=5462&height=8192",
+      "alt": "",
+      "w": 440,
+      "h": 660
+    },
+    {
+      "src": "https://framerusercontent.com/images/Sp7rYfCx9r4dfsa9CIf662jqJU.png?width=860&height=1164",
+      "alt": "",
+      "w": 440,
+      "h": 595
+    },
+    {
+      "src": "https://framerusercontent.com/images/NR772L11WVCmUJsPQgiWLyG0f0.jpeg?width=2432&height=3648",
+      "alt": "",
+      "w": 440,
+      "h": 660
+    },
+    {
+      "src": "https://framerusercontent.com/images/iOwH3UFIKymUlgnhl5PD1NNI.png?width=778&height=1164",
+      "alt": "",
+      "w": 440,
+      "h": 658
+    },
+    {
+      "src": "https://framerusercontent.com/images/TJa0qEEawYouYjrcJGONmbYRoI.jpeg?width=4000&height=6000",
+      "alt": "",
+      "w": 440,
+      "h": 660
+    },
+    {
+      "src": "https://framerusercontent.com/images/zyp9pTLEYH5Asw1bNwCB20NdU.png?width=803&height=802",
+      "alt": "Articles Image",
+      "w": 1240,
+      "h": 1238
+    },
+    {
+      "src": "https://framerusercontent.com/images/aZngdt7QFVbSYweDrMh0WuNAcU.png?width=804&height=606",
+      "alt": "Articles Image",
+      "w": 1240,
+      "h": 934
+    },
+    {
+      "src": "https://framerusercontent.com/images/eHeRh7DoM4wamQzxtIk9wgc8.png?width=1026&height=612",
+      "alt": "Articles Image",
+      "w": 1240,
+      "h": 739
+    },
+    {
+      "src": "https://framerusercontent.com/images/YuwV4KtPhUc3xBi12aihcelB5x0.png?width=3600&height=1800",
+      "alt": "",
+      "w": 1440,
+      "h": 720
+    },
+    {
+      "src": "https://framerusercontent.com/images/voui19yhvlTrMW30lyYkvKkP2U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/Te26rQp4D0RlgnQKdAe90TZYd0.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/2uHrE7dNBKBOPd52Y9tOXJKt8U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/a3WP6yjGjkY8y1NygXdc9Rm4Yas.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/voui19yhvlTrMW30lyYkvKkP2U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/Te26rQp4D0RlgnQKdAe90TZYd0.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/2uHrE7dNBKBOPd52Y9tOXJKt8U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/a3WP6yjGjkY8y1NygXdc9Rm4Yas.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/voui19yhvlTrMW30lyYkvKkP2U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/Te26rQp4D0RlgnQKdAe90TZYd0.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/2uHrE7dNBKBOPd52Y9tOXJKt8U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/a3WP6yjGjkY8y1NygXdc9Rm4Yas.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/voui19yhvlTrMW30lyYkvKkP2U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/Te26rQp4D0RlgnQKdAe90TZYd0.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/2uHrE7dNBKBOPd52Y9tOXJKt8U.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    },
+    {
+      "src": "https://framerusercontent.com/images/a3WP6yjGjkY8y1NygXdc9Rm4Yas.png?width=2000&height=1276",
+      "alt": "",
+      "w": 160,
+      "h": 102
+    }
+  ],
+  "sections": [
+    {
+      "bg": "rgb(3, 48, 64)",
+      "height": 558,
+      "width": 1440,
+      "padding": "0px",
+      "borderRadius": "0px",
+      "firstText": "We’re dedicated to making your outdoors look its best. From "
+    }
+  ]
+}

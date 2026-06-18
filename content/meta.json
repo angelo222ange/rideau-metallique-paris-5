@@ -1,0 +1,52 @@
+{
+  "template_id": "template-1",
+  "template_name": "GreenSpire",
+  "template_source": "https://greenspire.framer.website/",
+  "ville": "Paris 5e arrondissement",
+  "departement": "Paris",
+  "departement_code": "75",
+  "telephone": "01 84 16 31 81",
+  "domaine": "depannagerideau-metallique-paris-5.fr",
+  "section_mapping": {
+    "hero": "hero",
+    "about": "presentation",
+    "services": "services_drm",
+    "team": "zones_intervention",
+    "gallery": "realisations",
+    "testimonials": "avis_google",
+    "faq": "faq_drm",
+    "blog": "blog",
+    "process": "methode_depannage",
+    "pricing": null,
+    "cta": "cta_urgence",
+    "partners": "logos_confiance",
+    "counter": "stats_confiance"
+  },
+  "missing_sections": [],
+  "design_tokens": {
+    "colors": {
+      "primary": "#04323F",
+      "accent": "#C9A24B",
+      "light_bg": "#F5F3EC",
+      "dark_bg": "#062932"
+    },
+    "fonts": {
+      "heading": "Geist",
+      "body": "Geist"
+    },
+    "layout": {
+      "max_width": 1200,
+      "section_padding": "80px 30px",
+      "card_radius": 12,
+      "button_radius": 1000
+    }
+  },
+  "palette": {
+    "inspiration": "Paris 5e — Quartier Latin, Sorbonne, Pantheon : teal petrol profond pierre de taille + or bronze academique",
+    "primary": "#04323F",
+    "accent": "#C9A24B",
+    "light_bg": "#F5F3EC"
+  },
+  "hero_bg_file": "hero-rideau-polycarbonate.webp",
+  "created_at": "2026-06-18"
+}

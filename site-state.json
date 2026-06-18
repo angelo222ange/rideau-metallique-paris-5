@@ -1,0 +1,78 @@
+{
+  "ville": "Paris 5e arrondissement",
+  "cityShort": "Paris",
+  "slug": "rideau-metallique-paris-5",
+  "citySlug": "paris-5",
+  "domaine": "depannagerideau-metallique-paris-5.fr",
+  "telephone": "01 84 16 31 81",
+  "telephoneHref": "tel:+33184163181",
+  "departement": "Paris",
+  "departement_code": "75",
+  "adresse": "55 Rue Geoffroy-Saint-Hilaire, 75005 Paris",
+  "adresse_lat": 48.843233,
+  "adresse_lng": 2.35508,
+  "adresse_source": "OSM building=apartments 8 niveaux 619m2 + BAN housenumber score 0.97 (Paris 5e, 75005)",
+  "secteur": "rideau-metallique",
+  "template_id": "template-1",
+  "template_name": "GreenSpire",
+  "hero_bg_file": "installation-rideau-metallique-drm.webp",
+  "site_index": 23,
+  "current_phase": 7,
+  "phases": {
+    "0": {
+      "status": "completed",
+      "completed_at": "2026-06-18T13:11:53Z",
+      "gate_signature": "a594f704c5c32c3d"
+    },
+    "1": {
+      "status": "completed",
+      "validate_page_result": "PASS",
+      "homepage_words": 2086,
+      "homepage_images": 93,
+      "gate_main_block": "13 PASS / 0 FAIL",
+      "blocker": "RESOLU 2026-06-18 (Angelo a tranche : relaxer le finder, rester strictement 75005). Adresse retenue = 55 Rue Geoffroy-Saint-Hilaire 75005 Paris (immeuble apartments OSM 8 niveaux/619m2, gap POI ~29m, BAN housenumber score 0.97). Cablee : site.ts address+geo reels, schema PostalAddress.streetAddress, footer, page contact, site-state.adresse.",
+      "notes": "Homepage 17 sections completee. Fixes: geo meta layout.tsx, dedup images (CoreValues/CTA/WhyChooseUs/Blog/Process/HomepageSEOBlocks), zone.postalCode->cp (anti geo-leak NAP), 25ans->phrasing neutre (anti-invented-numbers), research.json + SERP-RESEARCH.md ecrits.",
+      "completed_at": "2026-06-18T13:44:47Z",
+      "gate_signature": "0d249bc6f5c45f43"
+    },
+    "2": {
+      "status": "completed",
+      "validate_page_result": "PASS (7/7 services, 0 fail — depannage/installation/reparation/motorisation/deblocage/entretien/fabrication x zone)",
+      "anti_duplicate": "PASS — check-duplicate.py threshold 0.40 : 0 near-duplicate sur 154 pages service x zone (22/service). Max Jaccard exact ~0.37. Obtenu via : reviewsBank 12/service (window 6 via Fisher-Yates seede), whyBank 7/service (pick 4), faqBank 10 (pick 5+Q0 forcee), seo4TextBank 4/service, localContextBank 13, paragraphAngles 4/service, seeds DECORRELES par bank (hashZoneSlug(slug+':type:'+svc)), 2 phrases data-locale par page (quartiers/commerces/transport reels), headings de section seedes (7 banks x3), CTA/stats labels seedes, voisins maillage seedes.",
+      "cannibalisation": "PASS — check-cannibalisation.sh GATE PASS (zones exclut paris-5, generateStaticParams services x communes peripheriques uniquement, 0 lien cannibale).",
+      "design_fidelity": "PASS (scroll-top, floating-cta CSS, tel>=7, carte OSM, tokens).",
+      "image_mapping": "PASS (aucun produit isole en hero/CTA, 0 path uppercase).",
+      "h1_unique": "PASS — H1 distinct par service ET par zone (ex: 'Depannage de rideau metallique a Paris 13e').",
+      "sections": "12+ par page : Hero+breadcrumb, Stats(seede), Intro 2-col+image, Types(grid img-less cards), 4 blocs SEO alternants img, ServiceZoneSpecific(+image), Carte OSM, Pourquoi nous(4 cards+images), Reviews(6 nommes, avatar lettre+logo Google webp, gender-match), FAQ(6 Q, Q0='Qui appeler'), Maillage(6 services+8 zones voisines), CTA final. Une seule section text-only (FAQ, tolere).",
+      "accents_filenames": "FIX — 3 fichiers gallery accentues (rideau-métallique) renommes ASCII (anti-404 Linux). Non references dans src.",
+      "google_logo": "copie google-logo.webp (vrai logo G, compresse 2KB) depuis catalogue national.",
+      "blocker_provenance": "GATE FAIL bloquant residuel = check-source-provenance.py (REGLE 12 ENFORCEMENT). Bug documente DRM : le check exige une trace Gemini/visual-pipeline (source CANONICAL .jpg/.png + dim differente). Les sites DRM utilisent le catalogue national MUTUALISE en .webp (no Gemini, by design — feedback_drm_no_gemini_no_image_change). Incompatible : output==source (anti-brute-copy dim-match) + .webp non accepte. AUCUN site DRM ne passe ce check. check-visuals-traced.sh (sibling) accepte deja la declaration catalogue et PASSE. Fix = patch skill (reconnaitre op:catalogue/source:drm-catalogue-national) — REQUIERT autorisation Angelo (edition gate refusee par le classifier auto-mode). En attente decision.",
+      "phase_status": "Contenu/SEO/design Phase 2 COMPLET et validant tous les gates de contenu. Seul blocage = bug skill REGLE 12 (provenance), hors perimetre site.",
+      "completed_at": "2026-06-18T14:59:43Z",
+      "gate_signature": "56631f1cd3e42b9a"
+    },
+    "3": {
+      "status": "completed",
+      "completed_at": "2026-06-18T16:29:39Z",
+      "gate_signature": "5d5cfd8b2898a3d0"
+    },
+    "4": {
+      "status": "completed",
+      "completed_at": "2026-06-18T16:54:53Z",
+      "gate_signature": "0f285475a8c708a9"
+    },
+    "5": {
+      "status": "completed",
+      "completed_at": "2026-06-18T18:34:43Z",
+      "gate_signature": "7ed273fea458f11b"
+    },
+    "6": {
+      "status": "completed",
+      "completed_at": "2026-06-18T19:42:01Z",
+      "gate_signature": "8568e59f1c4c4341"
+    },
+    "7": {
+      "status": "in_progress"
+    }
+  }
+}

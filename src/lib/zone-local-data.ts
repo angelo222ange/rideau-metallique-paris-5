@@ -1,0 +1,218 @@
+// zone-local-data.ts — Donnees hyper-locales par zone (anti-duplicate REGLE 6.5).
+// >= 20 zones, chacune : profile / landmarks[7] / streets[6] / quartiers[4] / commerces[5] / transport / specifique.
+// Utilise par service-content.ts avec rotation hashZoneSlug(zone.slug).
+
+export type ZoneLocal = {
+  profile: string;
+  landmarks: string[];
+  streets: string[];
+  quartiers: string[];
+  commerces: string[];
+  transport: string[];
+  specifique: string;
+};
+
+export const zoneLocalData: Record<string, ZoneLocal> = {
+  "paris-4": {
+    profile: "urbain-touristique",
+    landmarks: ["Hotel de Ville", "Notre-Dame de Paris", "Centre Pompidou", "Place des Vosges", "Tour Saint-Jacques", "Ile Saint-Louis", "Memorial de la Shoah"],
+    streets: ["Rue de Rivoli", "Rue des Rosiers", "Rue Saint-Antoine", "Rue des Archives", "Rue du Temple", "Quai de l'Hotel de Ville"],
+    quartiers: ["Le Marais", "Saint-Paul", "Ile Saint-Louis", "Arsenal"],
+    commerces: ["boutiques de mode", "galeries d'art", "restaurants", "librairies", "epiceries fines"],
+    transport: ["Hotel de Ville", "Saint-Paul", "Pont Marie"],
+    specifique: "Coeur historique du Marais, le 4e melange commerces de luxe, galeries et restaurants exigeant des fermetures fiables.",
+  },
+  "paris-6": {
+    profile: "residentiel-chic",
+    landmarks: ["Jardin du Luxembourg", "Eglise Saint-Sulpice", "Saint-Germain-des-Pres", "Theatre de l'Odeon", "Pont des Arts", "Institut de France", "Marche Saint-Germain"],
+    streets: ["Boulevard Saint-Germain", "Rue de Rennes", "Rue de Sevres", "Rue Bonaparte", "Rue de Buci", "Rue du Cherche-Midi"],
+    quartiers: ["Saint-Germain-des-Pres", "Odeon", "Notre-Dame-des-Champs", "Monnaie"],
+    commerces: ["boutiques de luxe", "librairies", "cafes litteraires", "galeries", "bijouteries"],
+    transport: ["Saint-Germain-des-Pres", "Odeon", "Mabillon", "Saint-Sulpice"],
+    specifique: "Quartier chic de la rive gauche, le 6e abrite des boutiques de prestige et des bijouteries soucieuses de leur securite.",
+  },
+  "paris-13": {
+    profile: "mixte",
+    landmarks: ["Bibliotheque Nationale de France", "Place d'Italie", "Les Olympiades", "Butte-aux-Cailles", "Manufacture des Gobelins", "Station F", "Quartier asiatique"],
+    streets: ["Avenue d'Italie", "Avenue de Choisy", "Boulevard de l'Hopital", "Rue de Tolbiac", "Avenue des Gobelins", "Rue Nationale"],
+    quartiers: ["Place d'Italie", "Les Gobelins", "Butte-aux-Cailles", "Quartier Chinois"],
+    commerces: ["restaurants asiatiques", "supermarches", "commerces de bouche", "pharmacies", "magasins de quartier"],
+    transport: ["Place d'Italie", "Bibliotheque Francois-Mitterrand", "Tolbiac", "Olympiades"],
+    specifique: "Du quartier asiatique aux tours des Olympiades, le 13e compte de nombreux commerces denses qui ferment tard.",
+  },
+  "paris-1": {
+    profile: "urbain-touristique",
+    landmarks: ["Musee du Louvre", "Jardin des Tuileries", "Palais-Royal", "Forum des Halles", "Place Vendome", "Sainte-Chapelle", "Conciergerie"],
+    streets: ["Rue de Rivoli", "Rue Saint-Honore", "Rue de la Paix", "Rue Montorgueil", "Rue Saint-Denis", "Avenue de l'Opera"],
+    quartiers: ["Les Halles", "Palais-Royal", "Vendome", "Chatelet"],
+    commerces: ["joailleries", "boutiques de luxe", "grands magasins", "restaurants", "commerces de mode"],
+    transport: ["Chatelet", "Louvre-Rivoli", "Palais-Royal", "Les Halles"],
+    specifique: "Quartier des joailliers de la Place Vendome et du Forum des Halles, le 1er exige des rideaux haute securite.",
+  },
+  "paris-2": {
+    profile: "affaires",
+    landmarks: ["Bourse de Paris", "Passage des Panoramas", "Bibliotheque Richelieu", "Rue Montorgueil", "Place des Victoires", "Sentier", "Theatre des Varietes"],
+    streets: ["Rue Montorgueil", "Rue Reaumur", "Rue du Sentier", "Boulevard des Italiens", "Rue Saint-Denis", "Rue de la Paix"],
+    quartiers: ["Sentier", "Bourse", "Mail", "Gaillon"],
+    commerces: ["grossistes textile", "commerces de mode", "bureaux", "restaurants", "cafes"],
+    transport: ["Bourse", "Sentier", "Grands Boulevards", "Quatre-Septembre"],
+    specifique: "Le Sentier et la Bourse concentrent grossistes textiles et bureaux dont les rideaux protegent des stocks de valeur.",
+  },
+  "paris-3": {
+    profile: "urbain-touristique",
+    landmarks: ["Musee Carnavalet", "Marche des Enfants Rouges", "Musee Picasso", "Square du Temple", "Arts et Metiers", "Rue de Bretagne", "Carreau du Temple"],
+    streets: ["Rue de Bretagne", "Rue de Turenne", "Rue des Archives", "Rue de Saintonge", "Rue Charlot", "Rue de Poitou"],
+    quartiers: ["Haut Marais", "Temple", "Arts-et-Metiers", "Enfants-Rouges"],
+    commerces: ["concept stores", "galeries", "restaurants", "epiceries fines", "boutiques de createurs"],
+    transport: ["Arts et Metiers", "Temple", "Filles du Calvaire"],
+    specifique: "Le Haut Marais, repaire de concept stores et galeries, demande des fermetures discretes mais robustes.",
+  },
+  "paris-7": {
+    profile: "residentiel-chic",
+    landmarks: ["Tour Eiffel", "Musee d'Orsay", "Invalides", "Champ-de-Mars", "Assemblee Nationale", "Musee Rodin", "Le Bon Marche"],
+    streets: ["Rue de Grenelle", "Rue Saint-Dominique", "Rue Cler", "Avenue de la Bourdonnais", "Boulevard Raspail", "Rue du Bac"],
+    quartiers: ["Gros-Caillou", "Invalides", "Ecole-Militaire", "Saint-Thomas-d'Aquin"],
+    commerces: ["epiceries fines", "boutiques de luxe", "commerces de bouche", "galeries", "antiquaires"],
+    transport: ["Ecole Militaire", "Invalides", "La Tour-Maubourg", "Solferino"],
+    specifique: "Quartier ministeriel et residentiel, le 7e abrite epiceries fines et antiquaires aux devantures soignees.",
+  },
+  "paris-11": {
+    profile: "residentiel-populaire",
+    landmarks: ["Place de la Bastille", "Cirque d'Hiver", "Marche d'Aligre", "Rue Oberkampf", "Pere-Lachaise", "Place de la Republique", "Rue de la Roquette"],
+    streets: ["Rue de la Roquette", "Boulevard Voltaire", "Rue Oberkampf", "Rue de Charonne", "Avenue Parmentier", "Rue Saint-Maur"],
+    quartiers: ["Bastille", "Oberkampf", "Charonne", "Saint-Ambroise"],
+    commerces: ["bars", "restaurants", "commerces de quartier", "epiceries", "ateliers d'artisans"],
+    transport: ["Bastille", "Oberkampf", "Voltaire", "Parmentier"],
+    specifique: "Quartier vivant et nocturne, le 11e aligne bars et commerces de quartier dont les rideaux ferment chaque nuit.",
+  },
+  "paris-12": {
+    profile: "mixte",
+    landmarks: ["Gare de Lyon", "Bois de Vincennes", "Opera Bastille", "Viaduc des Arts", "Bercy Village", "Promenade Plantee", "Marche d'Aligre"],
+    streets: ["Avenue Daumesnil", "Rue de Charenton", "Cours de Vincennes", "Rue du Faubourg Saint-Antoine", "Boulevard Diderot", "Rue de Reuilly"],
+    quartiers: ["Bercy", "Daumesnil", "Nation", "Reuilly"],
+    commerces: ["commerces de bouche", "restaurants", "magasins de quartier", "ateliers", "supermarches"],
+    transport: ["Gare de Lyon", "Bercy", "Daumesnil", "Reuilly-Diderot"],
+    specifique: "Entre Gare de Lyon et Bercy Village, le 12e compte commerces et ateliers exposes aux flux de voyageurs.",
+  },
+  "paris-14": {
+    profile: "residentiel-populaire",
+    landmarks: ["Catacombes de Paris", "Cite Universitaire", "Parc Montsouris", "Gare Montparnasse", "Hopital Sainte-Anne", "Place Denfert-Rochereau", "Rue Daguerre"],
+    streets: ["Rue Daguerre", "Avenue du General Leclerc", "Rue d'Alesia", "Boulevard Raspail", "Rue de la Gaite", "Avenue du Maine"],
+    quartiers: ["Montparnasse", "Alesia", "Pernety", "Plaisance"],
+    commerces: ["commerces de bouche", "restaurants", "magasins de proximite", "pharmacies", "epiceries"],
+    transport: ["Denfert-Rochereau", "Alesia", "Pernety", "Gaite"],
+    specifique: "Du marche Daguerre a Alesia, le 14e residentiel aligne commerces de proximite a securiser la nuit.",
+  },
+  "paris-15": {
+    profile: "residentiel-populaire",
+    landmarks: ["Tour Montparnasse", "Parc Andre-Citroen", "Aquaboulevard", "Front de Seine", "Rue du Commerce", "Institut Pasteur", "Parc Georges-Brassens"],
+    streets: ["Rue du Commerce", "Rue de Vaugirard", "Rue Lecourbe", "Boulevard de Grenelle", "Rue de la Convention", "Avenue Felix-Faure"],
+    quartiers: ["Commerce", "Vaugirard", "Convention", "Grenelle"],
+    commerces: ["commerces de quartier", "supermarches", "restaurants", "pharmacies", "magasins de mode"],
+    transport: ["Commerce", "Convention", "La Motte-Picquet", "Vaugirard"],
+    specifique: "Plus grand arrondissement, le 15e concentre une rue du Commerce tres dense en boutiques a fermeture quotidienne.",
+  },
+  "paris-10": {
+    profile: "mixte",
+    landmarks: ["Gare du Nord", "Gare de l'Est", "Canal Saint-Martin", "Hopital Saint-Louis", "Passage Brady", "Place de la Republique", "Marche Saint-Quentin"],
+    streets: ["Boulevard de Magenta", "Rue du Faubourg Saint-Denis", "Rue de Lancry", "Quai de Valmy", "Rue La Fayette", "Rue du Chateau-d'Eau"],
+    quartiers: ["Canal Saint-Martin", "Faubourg Saint-Denis", "Gare du Nord", "Chateau-d'Eau"],
+    commerces: ["restaurants", "commerces de gros", "epiceries", "bars", "magasins multi-services"],
+    transport: ["Gare du Nord", "Gare de l'Est", "Republique", "Chateau d'Eau"],
+    specifique: "Autour des gares du Nord et de l'Est, le 10e brasse commerces de gros et restaurants ouverts tard.",
+  },
+  "paris-20": {
+    profile: "residentiel-populaire",
+    landmarks: ["Cimetiere du Pere-Lachaise", "Parc de Belleville", "Place Gambetta", "Rue des Pyrenees", "Menilmontant", "Saint-Blaise", "Campagne a Paris"],
+    streets: ["Rue de Belleville", "Rue des Pyrenees", "Avenue Gambetta", "Rue de Menilmontant", "Boulevard de Charonne", "Rue d'Avron"],
+    quartiers: ["Belleville", "Menilmontant", "Gambetta", "Saint-Blaise"],
+    commerces: ["commerces de quartier", "epiceries", "restaurants", "bazars", "magasins de proximite"],
+    transport: ["Gambetta", "Pere-Lachaise", "Menilmontant", "Porte de Bagnolet"],
+    specifique: "Belleville et Menilmontant melent commerces populaires et bazars dont les rideaux protegent les devantures.",
+  },
+  "ivry-sur-seine": {
+    profile: "mixte",
+    landmarks: ["Mairie d'Ivry", "Manufacture des Oeillets", "Quai d'Ivry", "Hopital Charles-Foix", "Parc des Cormailles", "Port d'Ivry", "Centre commercial Grand Ciel"],
+    streets: ["Rue Gabriel Peri", "Avenue Georges Gosnat", "Rue Jean-Jacques Rousseau", "Boulevard de Brandebourg", "Rue Raspail", "Avenue Maurice Thorez"],
+    quartiers: ["Centre-ville", "Ivry-Port", "Petit-Ivry", "Monmousseau"],
+    commerces: ["commerces de quartier", "supermarches", "ateliers", "garages", "magasins de proximite"],
+    transport: ["Mairie d'Ivry", "Pierre et Marie Curie", "Porte de Choisy"],
+    specifique: "Ville limitrophe du 13e, Ivry-sur-Seine mele zones d'activite et commerces de centre-ville a securiser.",
+  },
+  "le-kremlin-bicetre": {
+    profile: "mixte",
+    landmarks: ["Hopital de Bicetre", "Mairie du Kremlin-Bicetre", "Place Victor Hugo", "Fort de Bicetre", "Marche du Kremlin", "Parc Pinel", "Avenue de Fontainebleau"],
+    streets: ["Avenue de Fontainebleau", "Rue du General Leclerc", "Avenue Charles Gide", "Rue Danton", "Rue Etienne Dolet", "Rue Jean Jaures"],
+    quartiers: ["Centre-ville", "Bicetre", "Convention", "Hoche"],
+    commerces: ["commerces de quartier", "pharmacies", "supermarches", "restaurants", "magasins de proximite"],
+    transport: ["Le Kremlin-Bicetre", "Villejuif-Leo Lagrange"],
+    specifique: "Aux portes du 13e, Le Kremlin-Bicetre compte un centre-ville commercant et des abords d'hopital tres frequentes.",
+  },
+  "charenton-le-pont": {
+    profile: "mixte",
+    landmarks: ["Bercy 2", "Ecole veterinaire de Maisons-Alfort", "Quai de Bercy", "Mairie de Charenton", "Square Jules Noel", "Bois de Vincennes", "Pont de Charenton"],
+    streets: ["Rue de Paris", "Quai des Carrieres", "Rue Victor Hugo", "Avenue du Marechal de Lattre", "Rue de Conflans", "Rue Gabrielle"],
+    quartiers: ["Centre-ville", "Bercy", "Liberte", "Carrieres"],
+    commerces: ["commerces de quartier", "supermarches", "restaurants", "garages", "magasins de proximite"],
+    transport: ["Charenton-Ecoles", "Liberte", "Ecole Veterinaire de Maisons-Alfort"],
+    specifique: "Voisine du 12e, Charenton-le-Pont aligne le centre commercial Bercy 2 et des commerces de rue a proteger.",
+  },
+  "gentilly": {
+    profile: "residentiel-populaire",
+    landmarks: ["Maison Doisneau", "Moulin de la Roche", "Mairie de Gentilly", "Parc du Coteau", "Aqueduc de la Vanne", "Theatre de Gentilly", "Bievre"],
+    streets: ["Avenue Paul Vaillant-Couturier", "Rue Charles Frerot", "Rue Benoit Malon", "Avenue de la Republique", "Rue Verlaine", "Rue du Soleil"],
+    quartiers: ["Centre-ville", "Val-de-Marne", "Reservoirs", "Bievre"],
+    commerces: ["commerces de quartier", "epiceries", "boulangeries", "pharmacies", "magasins de proximite"],
+    transport: ["Gentilly", "Cite Universitaire"],
+    specifique: "Petite ville au sud du 13e et du 14e, Gentilly compte des commerces de proximite et ateliers a securiser.",
+  },
+  "montrouge": {
+    profile: "residentiel-populaire",
+    landmarks: ["Beffroi de Montrouge", "Mairie de Montrouge", "Marche Marx Dormoy", "Parc Jean-Loup Metton", "Square de la Liberte", "Eglise Saint-Joseph", "Avenue de la Republique"],
+    streets: ["Avenue de la Republique", "Avenue Pierre Brossolette", "Rue Gabriel Peri", "Avenue Marx Dormoy", "Rue Maurice Arnoux", "Rue Camille Pelletan"],
+    quartiers: ["Centre-ville", "Ferry", "Jean Jaures", "Porte de Montrouge"],
+    commerces: ["commerces de quartier", "supermarches", "restaurants", "boulangeries", "magasins de proximite"],
+    transport: ["Montrouge", "Chatillon-Montrouge", "Porte d'Orleans"],
+    specifique: "Au sud du 14e, Montrouge possede un centre-ville dense en commerces dont les rideaux ferment chaque soir.",
+  },
+  "vincennes": {
+    profile: "residentiel-chic",
+    landmarks: ["Chateau de Vincennes", "Bois de Vincennes", "Hotel de Ville de Vincennes", "Cour des Maraichers", "Parc Floral", "Theatre de Vincennes", "Marche de Vincennes"],
+    streets: ["Rue de Fontenay", "Avenue de Paris", "Rue Raymond du Temple", "Rue du Midi", "Avenue du Chateau", "Rue de la Jarry"],
+    quartiers: ["Centre-ville", "Chateau", "Diderot", "Republique"],
+    commerces: ["commerces de bouche", "boutiques de mode", "restaurants", "pharmacies", "epiceries fines"],
+    transport: ["Chateau de Vincennes", "Berault"],
+    specifique: "Ville bourgeoise a l'est de Paris, Vincennes aligne boutiques et commerces de bouche aux devantures soignees.",
+  },
+  "saint-mande": {
+    profile: "residentiel-chic",
+    landmarks: ["Lac de Saint-Mande", "Mairie de Saint-Mande", "Place du General Leclerc", "Avenue du Bel-Air", "Bois de Vincennes", "Marche de Saint-Mande", "Eglise Notre-Dame"],
+    streets: ["Avenue du General de Gaulle", "Rue de l'Eglise", "Avenue Joffre", "Rue Cailletet", "Avenue Pasteur", "Rue Jeanne d'Arc"],
+    quartiers: ["Centre-ville", "Bel-Air", "Tourelle", "Cailletet"],
+    commerces: ["commerces de bouche", "boutiques de mode", "restaurants", "pharmacies", "epiceries fines"],
+    transport: ["Saint-Mande", "Berault", "Picpus"],
+    specifique: "Commune cossue limitrophe du 12e, Saint-Mande possede des commerces haut de gamme exigeant des fermetures fiables.",
+  },
+  "arcueil": {
+    profile: "mixte",
+    landmarks: ["Aqueduc d'Arcueil", "Mairie d'Arcueil", "Maison des Gardes", "Parc du Chaperon Vert", "Theatre d'Arcueil", "Bievre", "Laplace"],
+    streets: ["Avenue Laplace", "Rue Emile Raspail", "Avenue Lenine", "Rue de la Convention", "Rue Cauchy", "Avenue Paul Doumer"],
+    quartiers: ["Centre-ville", "Laplace", "Chaperon Vert", "Vache Noire"],
+    commerces: ["commerces de quartier", "supermarches", "restaurants", "garages", "magasins de proximite"],
+    transport: ["Arcueil-Cachan", "Laplace"],
+    specifique: "Au sud du 13e et du 14e, Arcueil mele zones d'activite et commerces de centre-ville a securiser.",
+  },
+  "malakoff": {
+    profile: "residentiel-populaire",
+    landmarks: ["Theatre 71", "Mairie de Malakoff", "Marche de Malakoff", "Stade Marcel Cerdan", "Square Bleuzen", "Maison de la Vie Associative", "Avenue Pierre Larousse"],
+    streets: ["Boulevard de Stalingrad", "Avenue Pierre Larousse", "Rue Gabriel Crie", "Rue Paul Vaillant-Couturier", "Avenue du Maréchal Leclerc", "Rue Eugene Varlin"],
+    quartiers: ["Centre-ville", "Stalingrad", "Barbusse", "Larousse"],
+    commerces: ["commerces de quartier", "boulangeries", "supermarches", "pharmacies", "magasins de proximite"],
+    transport: ["Malakoff-Plateau de Vanves", "Malakoff-Rue Etienne Dolet"],
+    specifique: "Voisine du 14e, Malakoff aligne un centre-ville commercant et des ateliers dont les rideaux ferment chaque nuit.",
+  },
+};
+
+export function getZoneLocal(slug: string): ZoneLocal | undefined {
+  return zoneLocalData[slug];
+}

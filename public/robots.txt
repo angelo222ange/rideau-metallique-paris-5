@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://depannagerideau-metallique-paris-5.fr/sitemap.xml
